@@ -27,7 +27,11 @@ a {
     flex-wrap: wrap;
     flex-direction: column;
 }
-.imgLogo {width: 80px; height: 120px;}
+
+.imgLogo {
+    width: 80px;
+    height: 120px;
+}
 
 header nav ul {
     background-color: gray;
@@ -48,7 +52,10 @@ header a {
     padding: 0px 30px 0px 30px;
 }
 
-.lupaBuscador {width: 12.5px; height: 12.5px}
+.lupaBuscador {
+    width: 12.5px;
+    height: 12.5px
+}
 
 .buscador {
     display: flex;
@@ -138,8 +145,10 @@ main {
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-.imgPages {width: 300px;
-height: 300px;}
+.imgPages {
+    width: 300px;
+    height: 300px;
+}
 
 .navMain2 {
     display: flex;
@@ -182,30 +191,23 @@ height: 300px;}
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 .novedadesP {
     display: flex;
     flex-wrap: wrap;
-    font-family: 'Zilla Slab', serif;
-    font-weight: 500;
     align-content: center;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-}
-
-.novedades p {
+    font-family: 'Zilla Slab', serif;
+    font-weight: 600;
     height: 74px;
     color: #c2bfbf;
-    font-family: "Source Sans Pro";
-    font-weight: 600;
     font-size: 25px;
     line-height: 1.28;
     text-align: center;
-    display: flex;
-    flex-wrap: wrap;
 }
 
 .cacillerosNovedades {
@@ -361,13 +363,13 @@ height: 300px;}
 .rrssContacto {
     display: flex;
     flex-direction: column;
-    align-items: flex-start ;
+    align-items: flex-start;
 }
 
 .rrssConImagen {
     display: flex;
     flex-direction: row;
-    justify-content: center;    
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 }
@@ -376,8 +378,11 @@ height: 300px;}
     color: white;
 }
 
-.logoRrssContacto { width: 50px;
-    height: 50px; padding-right: 7px;}
+.logoRrssContacto {
+    width: 50px;
+    height: 50px;
+    padding-right: 7px;
+}
 
 .formularioContacto {
     display: flex;
@@ -407,15 +412,23 @@ footer a {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+}
+
+footer nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
     align-content: center;
     padding: 15px 15px 0px 15px;
 }
 
+footer nav ul li a {padding: 20px;}
+
 .logoFooter {
     margin-left: 20px;
-    width: 80px; 
+    width: 80px;
     height: 120px;
 }
 
@@ -439,11 +452,13 @@ footer a {
 
 .logoLink {
     padding: 40px 7.5px 5px 7.5px;
-   
+
 }
 
-.logoRrss { width: 50px;
-    height: 50px;}
+.logoRrss {
+    width: 50px;
+    height: 50px;
+}
 
 .rrss {
     color: white;
@@ -470,3 +485,252 @@ footer a {
     padding: 10px;
 }
 
+/* Media Queris*/
+
+@media screen and (max-width: 1441px) {}
+
+@media screen and (max-width: 840px) {
+    .cacillerosNovedades {
+        flex-direction: column;
+    }
+
+    .novedadesP {
+        font-size: 17px;
+    }
+
+    .cacillerosNovedades {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .cacillerosNovedades1 {
+        Display: flex;
+        flex-wrap: wrap;
+        margin: 10px;
+        width: 230px;
+        height: 35px;
+    }
+
+    .botonS {
+        display: flex;
+        flex-wrap: wrap;
+        padding-right: 20px;
+        text-align: center;
+    }
+
+    .botonSuscripcion {
+        width: 110px;
+        height: 30px;
+        padding: 0px 10px 0px 10px;
+        background: #e2dddd;
+        color: #000000;
+        border-color: #000000;
+        border-width: 1px;
+        border-style: solid;
+        border-radius: 15px 15px 15px 15px;
+        font-family: "Source Sans Pro";
+        font-weight: 400;
+        font-size: 18px;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .text-input-3 {
+        width: 2240px;
+        height: 58px;
+        padding: 6px 8px 6px 8px;
+        background: #FFFFFF;
+        color: #929292;
+        border-color: #D6D6D6;
+        border-width: 2px;
+        border-style: solid;
+        border-radius: 3px 3px 3px 3px;
+        font-family: "Source Sans Pro";
+        font-weight: 200;
+        font-size: 14px;
+        text-align: left;
+    }
+
+    .text-input-4 {
+        width: 280px;
+        height: 58px;
+        padding: 6px 8px 6px 8px;
+        background: #FFFFFF;
+        color: #929292;
+        border-color: #D6D6D6;
+        border-width: 2px;
+        border-style: solid;
+        border-radius: 3px 3px 3px 3px;
+        font-family: "Source Sans Pro";
+        font-weight: 200;
+        font-size: 14px;
+        text-align: left;
+    }
+
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .imgPages {
+        width: 210px;
+        height: 210px;
+    }
+
+    .imgLink {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 20px 30px 20px 20px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
+
+    .cacillerosNovedades {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+}
+
+
+
+
+@media screen and (max-width: 601px) {
+
+    .imgPages {
+        width: 130px;
+        height: 130px;
+    }
+
+    .imgLink {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
+
+    .novedades {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
+
+    .novedadesH2 {
+        height: 50px;
+        opacity: 80%;
+        color: #e0dede;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 1;
+        text-align: center;
+        font-family: 'Zilla Slab', serif;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .novedadesP {
+        display: flex;
+        flex-wrap: wrap;
+        font-family: 'Zilla Slab', serif;
+        font-weight: 300;
+        align-content: center;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cacillerosNovedades {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .cacillerosNovedades1 {
+        Display: flex;
+        flex-wrap: wrap;
+        margin: 10px;
+        width: 230px;
+        height: 35px;
+    }
+
+    .botonS {
+        display: flex;
+        flex-wrap: wrap;
+        padding-right: 20px;
+        text-align: center;
+    }
+
+    .botonSuscripcion {
+        width: 110px;
+        height: 30px;
+        padding: 0px 10px 0px 10px;
+        background: #e2dddd;
+        color: #000000;
+        border-color: #000000;
+        border-width: 1px;
+        border-style: solid;
+        border-radius: 15px 15px 15px 15px;
+        font-family: "Source Sans Pro";
+        font-weight: 400;
+        font-size: 18px;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .text-input-3 {
+        width: 2240px;
+        height: 58px;
+        padding: 6px 8px 6px 8px;
+        background: #FFFFFF;
+        color: #929292;
+        border-color: #D6D6D6;
+        border-width: 2px;
+        border-style: solid;
+        border-radius: 3px 3px 3px 3px;
+        font-family: "Source Sans Pro";
+        font-weight: 200;
+        font-size: 14px;
+        text-align: left;
+    }
+
+    .text-input-4 {
+        width: 280px;
+        height: 58px;
+        padding: 6px 8px 6px 8px;
+        background: #FFFFFF;
+        color: #929292;
+        border-color: #D6D6D6;
+        border-width: 2px;
+        border-style: solid;
+        border-radius: 3px 3px 3px 3px;
+        font-family: "Source Sans Pro";
+        font-weight: 200;
+        font-size: 14px;
+        text-align: left;
+    }
+
+
+}
