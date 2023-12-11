@@ -1,0 +1,472 @@
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Zilla Slab', serif;
+}
+
+
+/* Estilos Globales */
+ul,
+ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header */
+.headerHome {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.imgLogo {width: 80px; height: 120px;}
+
+header nav ul {
+    background-color: gray;
+}
+
+header a {
+    color: white;
+}
+
+.headerTopHome {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    background-color: black;
+    padding: 0px 30px 0px 30px;
+}
+
+.lupaBuscador {width: 12.5px; height: 12.5px}
+
+.buscador {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 200px;
+}
+
+.headerTop {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    background-color: black;
+    padding: 0px 30px 20px 30px;
+}
+
+.navHeader {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    background-color: black;
+    padding-bottom: 5px;
+    border-left-color: white;
+    border-right-color: white;
+    border: 2px;
+}
+
+.bannerHome {
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 240px;
+}
+
+/* Main */
+main {
+    background-color: rgb(70, 69, 69);
+    min-height: 100vh;
+
+}
+
+.mainHome {
+    display: flex;
+    flex-direction: column;
+}
+
+.mainHome a {
+    color: white;
+}
+
+.mainNav {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.navMain1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly
+}
+
+.imgLink {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 30px 40px 30px 30px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.imgPages {width: 300px;
+height: 300px;}
+
+.navMain2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.suscribirse {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+}
+
+.novedades {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.novedadesH2 {
+    height: 81px;
+    opacity: 80%;
+    color: #e0dede;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.42;
+    text-align: center;
+    font-family: 'Zilla Slab', serif;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.novedadesP {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Zilla Slab', serif;
+    font-weight: 500;
+    align-content: center;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.novedades p {
+    height: 74px;
+    color: #c2bfbf;
+    font-family: "Source Sans Pro";
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 1.28;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cacillerosNovedades {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+.cacillerosNovedades1 {
+    Display: flex;
+    flex-wrap: wrap;
+    margin: 15px;
+    width: 254px;
+    height: 44px;
+}
+
+.botonS {
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 30px;
+    text-align: center;
+}
+
+.botonSuscripcion {
+    width: 143px;
+    height: 40px;
+    padding: 0px 10px 0px 10px;
+    background: #e2dddd;
+    color: #000000;
+    border-color: #000000;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 15px 15px 15px 15px;
+    font-family: "Source Sans Pro";
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text-input-3 {
+    width: 280px;
+    height: 68px;
+    padding: 6px 8px 6px 8px;
+    background: #FFFFFF;
+    color: #929292;
+    border-color: #D6D6D6;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 3px 3px 3px 3px;
+    font-family: "Source Sans Pro";
+    font-weight: 400;
+    font-size: 18px;
+    text-align: left;
+}
+
+.text-input-4 {
+    width: 280px;
+    height: 68px;
+    padding: 6px 8px 6px 8px;
+    background: #FFFFFF;
+    color: #929292;
+    border-color: #D6D6D6;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 3px 3px 3px 3px;
+    font-family: "Source Sans Pro";
+    font-weight: 400;
+    font-size: 18px;
+    text-align: left;
+}
+
+/* Nosotros Main */
+.mainNosotros h1 {
+    background-color: white;
+}
+
+/* Servicios Main */
+.mainServicios h1 {
+    background-color: white;
+}
+
+/* Clientes Main */
+.mainClientes h1 {
+    background-color: white;
+}
+
+/* Presupuesto Main */
+.mainPresupuesto h1 {
+    background-color: white;
+}
+
+/* Imagenes Main */
+.mainImagenes h1 {
+    background-color: white;
+}
+
+
+/* Contacto Main */
+.mainContacto {
+    padding: 0%;
+}
+
+.mainContacto h1 {
+    background-color: white;
+}
+
+.headPages {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.formularioDatos {
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 75px;
+}
+
+.datosContacto {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: baseline;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.formasDeContacto {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.formasDeContacto a {
+    color: white;
+}
+
+.rrssContacto {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start ;
+}
+
+.rrssConImagen {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;    
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.rrssConImagen a {
+    color: white;
+}
+
+.logoRrssContacto { width: 50px;
+    height: 50px; padding-right: 7px;}
+
+.formularioContacto {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: normal;
+    color: white;
+    align-content: stretch;
+}
+
+.formularioButton {
+    display: inline;
+}
+
+
+/* Footer */
+footer {
+    background-color: black;
+}
+
+footer a {
+    color: white;
+}
+
+.footerNav {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    padding: 15px 15px 0px 15px;
+}
+
+.logoFooter {
+    margin-left: 20px;
+    width: 80px; 
+    height: 120px;
+}
+
+.footerRrss {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logoFace {
+    padding: 40px 7.5px 5px 7.5px;
+
+}
+
+.logoIg {
+    padding: 40px 7.5px 5px 7.5px;
+
+}
+
+.logoLink {
+    padding: 40px 7.5px 5px 7.5px;
+   
+}
+
+.logoRrss { width: 50px;
+    height: 50px;}
+
+.rrss {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.copyRight {
+    color: gray;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    padding: 10px;
+}
+
