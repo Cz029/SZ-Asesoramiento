@@ -59,10 +59,10 @@ header a {
 
 .buscador {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     flex-direction: row;
     width: 200px;
 }
@@ -141,6 +141,7 @@ main {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    padding: 0;
     margin: 30px 40px 30px 30px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
@@ -354,6 +355,8 @@ main {
     justify-content: center;
     align-items: flex-start;
     flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
 }
 
 .formasDeContacto a {
@@ -364,6 +367,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+
 }
 
 .rrssConImagen {
@@ -372,6 +376,8 @@ main {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    padding: 0;
+   
 }
 
 .rrssConImagen a {
@@ -384,6 +390,8 @@ main {
     padding-right: 7px;
 }
 
+.formilarioDeContacto {width: 300px;
+    height: 400px;}
 .formularioContacto {
     display: flex;
     flex-wrap: wrap;
@@ -424,7 +432,9 @@ footer nav ul {
     padding: 15px 15px 0px 15px;
 }
 
-footer nav ul li a {padding: 20px;}
+footer nav ul li a {
+    padding: 20px;
+}
 
 .logoFooter {
     margin-left: 20px;
@@ -438,6 +448,7 @@ footer nav ul li a {padding: 20px;}
     flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
+    padding: 0;
 }
 
 .logoFace {
@@ -487,7 +498,11 @@ footer nav ul li a {padding: 20px;}
 
 /* Media Queris*/
 
-@media screen and (max-width: 1441px) {}
+@media screen and (max-width: 1441px) {
+    nav.navbar.navbar-dark.bg-dark {
+        display: none;
+    }
+}
 
 @media screen and (max-width: 840px) {
     .cacillerosNovedades {
@@ -573,7 +588,7 @@ footer nav ul li a {padding: 20px;}
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 803px) {
 
     .imgPages {
         width: 210px;
@@ -598,10 +613,33 @@ footer nav ul li a {padding: 20px;}
         padding: 20px;
     }
 
+    .imgBanner {
+        width: 350px;
+        height: 150px;
+    }
+
 }
 
+@media screen and (max-width: 768px) {
+    .navHeader {
+        display: none;
+    }
 
+    nav.navbar.navbar-dark.bg-dark {
+        display: block;
+    }
 
+    .formularioDatos {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .rrssContacto {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
 
 @media screen and (max-width: 601px) {
 
@@ -730,6 +768,45 @@ footer nav ul li a {padding: 20px;}
         font-weight: 200;
         font-size: 14px;
         text-align: left;
+    }
+
+
+}
+
+@media screen and (max-width: 389px) {
+    .footerNav {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .logoFooter {
+        margin: 0;
+    }
+
+}
+
+
+@media screen and (max-width: 351px) {
+
+    .imgBanner {
+        width: 200px;
+        height: 50px;
+    }
+
+    .headerTopHome {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .headerTop {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .copyRight {
+        font-size: 10px;
     }
 
 
