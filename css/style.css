@@ -319,6 +319,12 @@ main {
     background-color: white;
 }
 
+.carousel {
+    display: flex;
+justify-content: center;
+margin-top: 40px;}
+
+.imgCarousel {width: 500px; height: 500px;}
 
 /* Contacto Main */
 .mainContacto {
@@ -457,8 +463,6 @@ footer div ul {
     padding: 15px 15px 0px 15px;
     height: 120px;
 }
-
-footer div ul li a {}
 
 .logoFooter {
     margin-left: 20px;
@@ -659,7 +663,8 @@ footer div ul li a {}
         justify-content: center;
     }
 
-    footer div ul { display: flex;
+    footer div ul {
+        display: flex;
         flex-direction: column;
     }
 
@@ -805,6 +810,7 @@ footer div ul li a {}
     .footerNav {
         flex-direction: column;
     }
+
     footer div ul {
         flex-direction: column;
         align-items: center;
