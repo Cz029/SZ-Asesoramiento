@@ -12,6 +12,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="shortcut icon" href="img/szLogo.png" type="image/x-icon">
     <title>SZ Asesoramientos - Home</title>
 </head>
@@ -56,35 +57,35 @@
             </div>
         </nav>
         <div class="bannerHome">
-            <img class="imgBanner" src="img/szBanner.png" alt="">
+            <img class="imgBannerLogo" src="img/szBanner.png" alt="">
         </div>
     </header>
 
     <main class="mainHome">
         <section class="mainNav">
             <article class="navMain1">
-                <ul class="imgLink">
+                <ul data-aos="zoom-in" class="imgLink">
                     <li><a href="pages/nosotros.html"><img class="imgPages" src="img/comingSoon.jfif" alt=""></a></li>
                     <li><a href="pages/nosotros.html">Nosotros</a></li>
                 </ul>
-                <ul class="imgLink">
+                <ul data-aos="zoom-in" class="imgLink">
                     <li><a href="pages/servicios.html"><img class="imgPages" src="img/comingSoon.jfif" alt=""></a></li>
                     <li><a href="pages/servicios.html">Servicios</a></li>
                 </ul>
-                <ul class="imgLink">
+                <ul data-aos="zoom-in" class="imgLink">
                     <li><a href="pages/clientes.html"><img class="imgPages" src="img/comingSoon.jfif" alt=""></a></li>
                     <li><a href="pages/clientes.html">Clientes</a></li>
                 </ul>
-                <ul class="imgLink">
+                <ul data-aos="zoom-in" class="imgLink">
                     <li><a href="pages/presupuesto.html"><img class="imgPages" src="img/comingSoon.jfif" alt=""></a>
                     </li>
                     <li><a href="pages/presupuesto.html">Presupuesto</a></li>
                 </ul>
-                <ul class="imgLink">
+                <ul data-aos="zoom-in" class="imgLink">
                     <li><a href="pages/imagenes.html"><img class="imgPages" src="img/comingSoon.jfif" alt=""></a></li>
                     <li><a href="pages/imagenes.html">Imagenes</a></li>
                 </ul>
-                <ul class="imgLink">
+                <ul data-aos="zoom-in" class="imgLink">
                     <li><a href="pages/contacto.html"><img class="imgPages" src="img/comingSoon.jfif" alt=""></a></li>
                     <li><a href="pages/contacto.html">Contacto</a></li>
                 </ul>
@@ -93,7 +94,7 @@
 
             </article>
 
-            <article class="novedades">
+            <article data-aos="flip-up" class="novedades">
                 <h2 class="novedadesH2">Novedades</h2>
 
                 <p class="novedadesP">Enterate de todas las novedades al instante! </p>
@@ -112,13 +113,13 @@
 
                 </div>
             </article>
-        </Section>
+        </section>
 
 
     </main>
 
     <footer>
-        <nav class="footerNav">
+        <div class="footerNav">
             <img src="img/szLogo.png" alt="Logo" class="logoFooter">
             <ul>
                 <li class=".linksNavFooter"><a href="#">Home</a></li>
@@ -131,7 +132,7 @@
                 <li class=".linksNavFooter"><a href="pages/imagenes.html">Imagenes</a></li>
                 <li class=".linksNavFooter"><a href="pages/contacto.html">Contacto</a></li>
             </ul>
-        </nav>
+        </div>
 
         <ul class="footerRrss">
             <li class="logoFace"><a href="https://es-la.facebook.com/" target="_blank"><img class="logoRrss"
@@ -150,6 +151,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

@@ -90,10 +90,22 @@ header a {
     border-left-color: white;
     border-right-color: white;
     border: 2px;
+    margin: 0;
+}
+
+.imgBanner {
+    height: 240px;
+    width: 300px;
 }
 
 .bannerHome {
-    background-color: white;
+    background: #0F2027;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, rgb(68, 68, 68), #2e2e2e, #2b2b2b, #000000);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, rgb(68, 68, 68), #2e2e2e, #2b2b2b, #000000);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -324,6 +336,15 @@ main {
     justify-content: center;
     align-items: center;
     align-content: center;
+    background: #0F2027;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, rgb(68, 68, 68), #2e2e2e, #2b2b2b, #000000);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, rgb(69, 69, 69), #383838, #1b1b1b, #000000);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    height: 100px;
+    margin: 0;
 }
 
 .formularioDatos {
@@ -377,7 +398,7 @@ main {
     align-items: center;
     flex-wrap: wrap;
     padding: 0;
-   
+
 }
 
 .rrssConImagen a {
@@ -390,8 +411,11 @@ main {
     padding-right: 7px;
 }
 
-.formilarioDeContacto {width: 300px;
-    height: 400px;}
+.formilarioDeContacto {
+    width: 300px;
+    height: 400px;
+}
+
 .formularioContacto {
     display: flex;
     flex-wrap: wrap;
@@ -422,19 +446,19 @@ footer a {
     flex-direction: row;
 }
 
-footer nav ul {
+
+footer div ul {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     align-content: center;
     padding: 15px 15px 0px 15px;
+    height: 120px;
 }
 
-footer nav ul li a {
-    padding: 20px;
-}
+footer div ul li a {}
 
 .logoFooter {
     margin-left: 20px;
@@ -498,7 +522,7 @@ footer nav ul li a {
 
 /* Media Queris*/
 
-@media screen and (max-width: 1441px) {
+@media screen and (max-width: 2560px) {
     nav.navbar.navbar-dark.bg-dark {
         display: none;
     }
@@ -613,7 +637,7 @@ footer nav ul li a {
         padding: 20px;
     }
 
-    .imgBanner {
+    .imgBannerLogo {
         width: 350px;
         height: 150px;
     }
@@ -633,6 +657,10 @@ footer nav ul li a {
         flex-direction: column;
         align-items: center;
         justify-content: center;
+    }
+
+    footer div ul { display: flex;
+        flex-direction: column;
     }
 
     .rrssContacto {
@@ -773,6 +801,19 @@ footer nav ul li a {
 
 }
 
+@media screen and (max-width: 425px) {
+    .footerNav {
+        flex-direction: column;
+    }
+    footer div ul {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+}
+
+
 @media screen and (max-width: 389px) {
     .footerNav {
         flex-direction: column;
@@ -790,7 +831,7 @@ footer nav ul li a {
 
 @media screen and (max-width: 351px) {
 
-    .imgBanner {
+    .imgBannerLogo {
         width: 200px;
         height: 50px;
     }
