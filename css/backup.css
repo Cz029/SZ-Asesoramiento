@@ -1,11 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300;400;500;600;700&display=swap');
 
-@import "sass/base/reset";
-@import "sass/base/typography";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body {
     font-family: 'Zilla Slab', serif;
 }
 
+
+/* Estilos Globales */
+ul,
+ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
 
 /* Header */
 .headerHome {
